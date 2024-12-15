@@ -10,7 +10,12 @@ $ cd YDLidar-SDK/build
 $ cmake ..
 $ make
 $ sudo make install
-``` 
+```
+
+## pythonで利用
+$ cd YDLidar-SDK/build
+$ sudo apt-get install python3-pip
+$ pip3 install .
 
 RPi5(Bookworm)、JetsonOrinNano(Ubuntu22)で確認済み。
 
