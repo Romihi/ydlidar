@@ -13,9 +13,12 @@ $ sudo make install
 ```
 
 ## pythonで利用
+``` 
+$ sudo apt-get update && sudo apt-get install -y swig
 $ cd YDLidar-SDK/build
 $ sudo apt-get install python3-pip
 $ pip3 install .
+``` 
 
 RPi5(Bookworm)、JetsonOrinNano(Ubuntu22)で確認済み。
 
